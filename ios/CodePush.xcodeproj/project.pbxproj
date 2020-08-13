@@ -59,6 +59,7 @@
 		81D51F3A1B6181C2000DA084 /* CodePushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D51F391B6181C2000DA084 /* CodePushConfig.m */; };
 		8482F84C1E24C58300F793DB /* CodePush.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13BE3DEC1AC21097009241FE /* CodePush.h */; };
 		8482F84E1E24C66300F793DB /* CodePush.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BE3DEC1AC21097009241FE /* CodePush.h */; };
+		E386764324E4FDE000BA5B22 /* RCTEventEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = E386764224E4FDE000BA5B22 /* RCTEventEmitter.h */; };
 		F85736761F4F03BF00C9C00A /* MF_Base64Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F85736731F4F03BF00C9C00A /* MF_Base64Additions.h */; };
 		F85736771F4F03BF00C9C00A /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F85736741F4F03BF00C9C00A /* MF_Base64Additions.m */; };
 		F886644D1F4AD1EE0036D01B /* JWTAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664151F4AD1EE0036D01B /* JWTAlgorithm.h */; };
@@ -178,6 +179,7 @@
 		54FFEDDF1BF550630061DD23 /* CodePushDownloadHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodePushDownloadHandler.m; path = CodePush/CodePushDownloadHandler.m; sourceTree = "<group>"; };
 		810D4E6C1B96935000B397E9 /* CodePushPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodePushPackage.m; path = CodePush/CodePushPackage.m; sourceTree = "<group>"; };
 		81D51F391B6181C2000DA084 /* CodePushConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodePushConfig.m; path = CodePush/CodePushConfig.m; sourceTree = "<group>"; };
+		E386764224E4FDE000BA5B22 /* RCTEventEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTEventEmitter.h; path = "../Examples/CodePushDemoApp/node_modules/react-native/React/Modules/RCTEventEmitter.h"; sourceTree = "<group>"; };
 		F85736731F4F03BF00C9C00A /* MF_Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base64Additions.h; sourceTree = "<group>"; };
 		F85736741F4F03BF00C9C00A /* MF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base64Additions.m; sourceTree = "<group>"; };
 		F85736751F4F03BF00C9C00A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -319,6 +321,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				E386764224E4FDE000BA5B22 /* RCTEventEmitter.h */,
 				5498D8F51D21F14100B5EB43 /* CodePushUtils.m */,
 				13BE3DEC1AC21097009241FE /* CodePush.h */,
 				13BE3DED1AC21097009241FE /* CodePush.m */,
@@ -533,6 +536,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E386764324E4FDE000BA5B22 /* RCTEventEmitter.h in Headers */,
 				F88664791F4AD1EE0036D01B /* JWTErrorDescription.h in Headers */,
 				F85736761F4F03BF00C9C00A /* MF_Base64Additions.h in Headers */,
 				F88664541F4AD1EE0036D01B /* JWTAlgorithmDataHolder.h in Headers */,
@@ -625,6 +629,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
